@@ -1,0 +1,21 @@
+/* !! denshichrome: */
+*.background: #2a2f38
+*.foreground: #e1e3e7
+*.color0: #2f343f
+*.color1: #ed4737
+*.color2: #9bcf4f
+*.color3: #f6d13a
+*.color4: #4084d6
+*.color5: #dab6fc
+*.color6: #60e1e0
+*.color7: #e1e3e7
+*.color8: #404552
+*.color9: #fda685
+*.color10: #94e88c
+*.color11: #fff75e
+*.color12: #5294e2
+*.color13: #ceb3e1
+*.color14: #8ddddd
+*.color15: #fafafa
+*.color256: #2f343f
+*.color257: #fafafa

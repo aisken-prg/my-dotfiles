@@ -1,0 +1,12 @@
+#This is just a desktop shortcut, you will need ani-cli which you can get by using yay -S ani-cli.
+
+[Desktop Entry]
+Version=4.11
+Type=Application
+Name=Ani-Cli
+Comment=A cli tool to browse and play anime.
+Exec=/usr/bin/ani-cli --rofi --dub --skip -q 1080
+#Icon=/home/user/icons/myscript.png
+Terminal=false
+Categories=AudioVideo;Player;
+StartupNotify=false
