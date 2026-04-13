@@ -1,2 +1,2 @@
 # my-dotfiles
-Simple dwm setup dotfiles
+Simple dwm setup dotfiles.
