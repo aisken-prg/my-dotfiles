@@ -34,6 +34,7 @@
 dwm.normbordercolor: #4C4541
 dwm.normbgcolor: #322F2E
 dwm.normfgcolor: #FABD2F
-dwm.selbordercolor: #665C54
+dwm.selbordercolor: #b98c23 
+! for picom, i use #b98c23 but whenever i don't use picom it's #FABD2F
 dwm.selbgcolor: #3C3938
-dwm.selfgcolor: #E2D0A8
+dwm.selfgcolor: #FABD2F
