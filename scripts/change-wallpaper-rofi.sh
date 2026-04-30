@@ -251,7 +251,7 @@ wallhaven_rofi_select() {
             echo -en "$id\0icon\x1f$icon\x1fmeta\x1f$full\n"
         done
         # -no-sort keeps our "Next Page" entry at the top.
-    } | rofi -dmenu -theme ~/.config/rofi/Arc-Dark-wall.rasi -show-icons -i -no-sort -p "$prompt [$query p$page]" || true
+    } | rofi -dmenu -theme-str 'window { location: center; anchor: center; width: 600px; }' -theme-str 'element-icon { size: 175px; }' -theme-str 'listview { lines: 5; columns: 3; }' -theme-str 'element { children: [element-icon]; }' -show-icons -i -no-sort -p "$prompt [$query p$page]" || true
 }
 
 wallhaven_full_url_for_id() {
@@ -399,7 +399,7 @@ change_wallpaper() {
     done < <(find "$LOCAL_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" \) | sort)
 
     # Show menu with icons
-    selected="$(echo -e "$menu" | rofi -dmenu -theme ~/.config/rofi/Arc-Dark-wall.rasi -i -show-icons -p "Change Wallpaper" || true)"
+    selected="$(echo -e "$menu" | rofi -dmenu -theme-str 'window { location: center; anchor: center; width: 600px; }' -theme-str 'element-icon { size: 175px; }' -theme-str 'listview { lines: 5; columns: 3; }' -theme-str 'element { children: [element-icon]; }' -i -show-icons -p "Change Wallpaper" || true)"
     # If user pressed Esc, selected is empty -> return to main menu.
     if [ -n "$selected" ]; then
         # Apply wallpaper and remember the path for external scripts.
