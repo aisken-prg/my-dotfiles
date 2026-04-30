@@ -21,7 +21,7 @@ autoload -U colors && colors
 #PS1="%{$(tput setaf 196)%}%n%{$(tput setaf 207)%}@%{$(tput setaf 208)%}%m %{$(tput setaf 220)%}%1~ %{$(tput sgr0)%}> "
 PS1="%{$(tput setaf 203)%}%n%{$(tput setaf 255)%}@%{$(tput setaf 6)%}%m %{$(tput setaf 172)%}%1~>%{$(tput sgr0)%} "
 
-
+alias nano='vim'
 alias ls="ls -l -h --color=auto"
 alias tclock="tty-clock -c -s"
 alias alsamixer="alsamixer -c 1"
