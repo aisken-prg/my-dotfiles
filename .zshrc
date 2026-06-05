@@ -26,6 +26,6 @@ alias ls="ls -l -h --color=auto"
 alias tclock="tty-clock -c -s"
 alias alsamixer="alsamixer -c 1"
 alias sx="startx"
-alias tidal-dl="/home/alex/.local/bin/tidal-dl"
 alias ani-cli='ani-cli --rofi --dub'
 alias weather='curl wttr.in'
+alias ff="fastfetch"
